@@ -18,14 +18,14 @@ namespace road_to_C_
                 string str = "true";
                 bool b = Convert.ToBoolean(str);
                 Console.WriteLine(b);
+                int x = 1;
+                int y = x++;
+                Console.WriteLine("x: {0}, y:{1}", x, y);
             }
             catch (Exception)
             {
                 Console.WriteLine("The number couldnt be converted to a byte");
             }
-
-
-
         }
     }
 }
