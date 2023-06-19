@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace road_to_C_
 {
@@ -10,6 +6,11 @@ namespace road_to_C_
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world");
+            int number = 51;
+            const float Pi = 3.14f;
+            Console.WriteLine(number * Pi);
         }
     }
 }
+
