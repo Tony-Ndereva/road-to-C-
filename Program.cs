@@ -6,8 +6,26 @@ namespace road_to_C_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
-            Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
+            //int i = 1000;
+            //byte b = (byte)i;
+            //Console.WriteLine(b);
+
+            try
+            {
+                //string number = "12345";
+                //byte b = Convert.ToByte(number);
+                //Console.WriteLine(b);
+                string str = "true";
+                bool b = Convert.ToBoolean(str);
+                Console.WriteLine(b);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("The number couldnt be converted to a byte");
+            }
+
+
+
         }
     }
 }
