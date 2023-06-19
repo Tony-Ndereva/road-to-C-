@@ -6,10 +6,8 @@ namespace road_to_C_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
-            int number = 51;
-            const float Pi = 3.14f;
-            Console.WriteLine(number * Pi);
+            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
+            Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
         }
     }
 }
