@@ -8,20 +8,16 @@ namespace road_to_C_
 
         static void Main(string[] args)
         {
-            var timespan = new TimeSpan(1, 2, 3);
-            var timespan1 = new TimeSpan(1, 0, 0);
-            var timespan2 = TimeSpan.FromHours(1);
 
-            var start = DateTime.Now;
-            var end = DateTime.Now.AddMinutes(2);
-            var duration = end - start;
-            //Console.WriteLine("Duration: " + duration);
 
-            Console.WriteLine("Minutes: " + timespan.Minutes);
-            Console.WriteLine("Total Minutes: " + timespan.TotalMinutes);
+            var text = "Alas dwell the his flow sister had nor friend thy and to sick of parasites his in his at did but gild goodly are worse drugged had harold drop dome dwelt night virtues suffice not soul once one there these by through below fame atonement earthly the but to and ";
+            var summary = StringUtility.SummerizeText(text);
+            Console.WriteLine(summary);
         }
-    }
 
+
+
+    }
 }
 
 
